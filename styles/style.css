@@ -9,20 +9,81 @@ button, summary {
 	cursor: pointer;
 }
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #735e56;
+    --color-text-rgb: 115, 94, 86;
+    --color-body-text: #735e56;
+
+
+    --font-h1-desktop: 35;
+    --font-h1-mobile: 32;
+    --font-h2-desktop: 20;
+    --font-h2-mobile: 18;
+    --font-h3-mobile: 20;
+    --font-h4-desktop: 17;
+    --font-h4-mobile: 15;
+    --font-h5-desktop: 15;
+    --font-h5-mobile: 13;
+    --font-h6-desktop: 14;
+    --font-h6-mobile: 12;
 }
 
+/*vvvvv Nog niet gebruikt (eigenschappen van de "H's" uit de website vvvvv */
+.two{
+	display: block;
+	font-size: 40px;
+    line-height: 48px;
+	font-family: Sofia Pro,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+	color: #75b91d;
+    text-transform: inherit;
+    letter-spacing: inherit;
+	margin: 0 0 17.5px;
+	word-wrap: break-word;
+}
 
+.three{
+	display: block;
+	font-family: Sofia Pro,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+	text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    color: #ff812b;
+	text-transform: none;
+    letter-spacing: 0;
+	margin: 0 0 17.5px;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	word-wrap: break-word;
+}
+
+.four{
+	font-family: Sofia Pro,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+	text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+	color: #fff;
+	margin: 0 0 17.5px;
+	word-wrap: break-word;
+	display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 
 
@@ -30,10 +91,80 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
-
-body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+.oproep{
+	font-family: Sofia Pro,sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius: 0px 0px 25px 25px;
+	margin-top: 0em ;
+	display: block;
+    padding: 11px 22px;
+    font-weight:bold;
+	text-align: center;
+	border-bottom: 1px solid transparent;
+	position: relative;
+	background-color: #75b91d;
 }
 
+.zoekbalk{
+	padding: 0.6em;
+	border-radius: 15%;
+	
+}
+
+#talenknop{
+	padding: 0.6em;
+	border-radius: 15%;
+}
+
+
+
+/* navigatie balk vv */
+.navbar {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	background-color: #ffffff;
+	overflow: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	list-style-type: none;
+	}
+
+	.navbar li {
+	    font-family: Sofia Pro,sans-serif;
+        font-style: normal;
+        color: #735e56;
+        border-radius: 700;
+		text-align: left;
+		font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+		padding: 12px;
+		text-decoration: none;
+		display: inline;
+	  }
+	  
+	.navbar li:hover {
+		background-color: rgb(214, 214, 214);
+	  }
+
+	  .active {
+		background-color: #75b91d;
+	  }
+
+	.logo{
+		width: 4em;
+	}
+	  /* navigatie balk ^^ */
+	  
+	  .homeHero .heroImage {
+		background-image: url(https://cdn.shopify.com/s/files/1/1099/9762/files/heroImage-2.png?v=1631019084);
+		background-size: cover;
+		background-position: right bottom;
+	}
+
+
+
+	  /* JOUW STYLING */
