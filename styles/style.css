@@ -14,7 +14,6 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
 	--color-text: #735e56;
     --color-text-rgb: 115, 94, 86;
     --color-body-text: #735e56;
@@ -91,80 +90,10 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
-.oproep{
-	font-family: Sofia Pro,sans-serif;
-	font-size: 16px;
-	color: #ffffff;
-	border-radius: 0px 0px 25px 25px;
-	margin-top: 0em ;
-	display: block;
-    padding: 11px 22px;
-    font-weight:bold;
-	text-align: center;
-	border-bottom: 1px solid transparent;
-	position: relative;
-	background-color: #75b91d;
-}
-
-.zoekbalk{
-	padding: 0.6em;
-	border-radius: 15%;
-	
-}
-
-#talenknop{
-	padding: 0.6em;
-	border-radius: 15%;
-}
-
-
 
 /* navigatie balk vv */
-.navbar {
-	display: flex;
-	position: fixed;
-	width: 100%;
-	background-color: #ffffff;
-	overflow: auto;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 0;
-	list-style-type: none;
-	}
 
-	.navbar li {
-	    font-family: Sofia Pro,sans-serif;
-        font-style: normal;
-        color: #735e56;
-        border-radius: 700;
-		text-align: left;
-		font-weight: 600;
-        font-size: 14px;
-        line-height: 18px;
-		padding: 12px;
-		text-decoration: none;
-		display: inline;
-	  }
-	  
-	.navbar li:hover {
-		background-color: rgb(214, 214, 214);
-	  }
-
-	  .active {
-		background-color: #75b91d;
-	  }
-
-	.logo{
-		width: 4em;
-	}
 	  /* navigatie balk ^^ */
 	  
-	  .homeHero .heroImage {
-		background-image: url(https://cdn.shopify.com/s/files/1/1099/9762/files/heroImage-2.png?v=1631019084);
-		background-size: cover;
-		background-position: right bottom;
-	}
-
-
 
 	  /* JOUW STYLING */
