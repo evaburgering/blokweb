@@ -48,9 +48,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
+  Tijdens de les gingen we onze gekozen website gebruiken met een aantal verschillende dingen. 
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Uit de test kwam dat mijn gekozen site niet veel rekening houd met andere methodes van navigeten dan de standaard huis.
 
   #### Screenreader
   Er is in deze website geen rekening gehouden met het gebruik van een screenreader.
@@ -64,8 +65,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Motoriek (shocks, elastiekjes)
  de website is ondanks beperking in motoriek of spasme is de website nogsteeds goed te gebruiken aangezien het alleen bestaan uit 1 scrolbeweging die naar beneden gaat. omdat de geen zijwaardse bewegingen vergd is het navigeren best makkelijk te doen. De knoppen van de website zijn groot genoeg om er in 1 keer op te kunnen drukken en staan vaak midden in het scherm waardoor ze moeilijk te missen zijn.
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   De belangrijkste informatie van dde website zijn goed zichbaar en hebben over het algemeen een goed contrast. Bij de opmaak elementen zoals bij de "find your shape" valt echter weg bij sommige visuele beperkingen en zouden dus wat meer naar buiten gebracht kunnen worden.
@@ -99,29 +98,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1e voortgang</summary>
+  <summary>Deze week heb ik een opzet gemaakt met het maken van mijn website in HTML en CSS</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het schijven van de html ging al vrij snel goed en ik durf te zeggen dat ik dit redelijk onder de knie heb.
 
+  Het werken met selectoren vind ik super moeilijk aangezien het nergen op internet te vinden is hoe je bijvoorbeeld 1 van de 5 <sections> wilt selecteren. Dit zou ik dus echt alleen in de les kunnen vragen waardoor ik me soms beperkt voel.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | ik     | Sam       | Pepijn s   |     |
+  
+  ik bespreek: Mijn HTML
+  Als er nog tijd is: Tims voor CSS
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Tijdens het feedback gesprek heb ik met de student assistent mijn HMTL door genomen. Al snel bleek dat ik wat foutjes had in de volgorde waarin in mijn code had opgesteld. verder had ik nog een aantal vragen over hoe ik sommige dingen beter semmantisch kon formuleren.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Ik had al mijn css weg moeten doen aangezien ik in het begin vrijwel alles met classas had aangeven. Ik vond het krijgen van feedback op mijn code erg fijn maar lastig dat ik dus geen css had om te haten zien.
+
 
 </details>
 
