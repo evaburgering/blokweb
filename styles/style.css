@@ -5,10 +5,17 @@
   box-sizing:border-box;  
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+    font-family: Arial, Helvetica, sans-serif;}
 
 button, summary {
 	cursor: pointer;
+    line-height: 1.5;
+    padding: 15px 40px;
+    font-size: 20px;
+    line-height: 20px;
+    width: 195px;
+    text-align: center;
 }
 
 
@@ -24,9 +31,20 @@ button, summary {
     --color-text-rgb: 115, 94, 86;
     --color-body-text: #735e56;
 
+    --font-style-body: normal;
+    --font-weight-body: 400;
+    --font-size-header: 26;
+    --font-size-base: 15;
+    --font-h1-desktop: 35;
+    --font-h1-mobile: 32;
+    --font-h2-desktop: 20;
+    --font-h2-mobile: 18;
+    --font-h3-mobile: 20;
 }
 
-h2{
+
+
+h2:first-child{
     font-size: 40px;
     text-align: center;
 }
@@ -35,6 +53,45 @@ ul{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
+/*vvvvvvvvvvvvvvvvvvv "try now" knop vvvvvvvvvvvvvvvvvvvvvvvvvv */
+button{
+    color: #fff;
+    background: rgba(255,129,43,1);
+    border-radius: 100px;
+    border: none;
+}
+/*^^^^^^^^^^^^^^^^^^^^ "try now" knop ^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+/*vvvvvvvvvvvvvvvvvvv "find your" secties vvvvvvvvvvvvvvvvvvvvvvvvvv */
+section ul{
+    display: flex;
+    text-align: center;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around ;
+    flex: 1;
+    
+}
+
+ul>li{
+    flex: auto ;
+    flex-grow: 1;
+    order: 3;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^ find your" secties ^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+
+
 
 
 
@@ -42,9 +99,41 @@ ul{
 /**********************************************vvvv mijn code vvvv************************************************/
 
 
+
+
 /************^*******/
 /*VVVV HEADER VVVV */
 /********************/
+
+/*vvvvvvvvvvvvvvvvvvv De aankondiging vvvvvvvvvvvvvvvvvvvvvvvvvv */
+header p {
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #75b91d;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    padding: 11px 22px;
+    display: block;
+}
+/*^^^^^^^^^^^^^^^^^^^^ De aankondiging ^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+
+/*vvvvvvvvvvvvvvvvvvv De "talen"knop + zoekbalk" vvvvvvvvvvvvvvvvvvvvvvvvvv */
+form, input{
+    border-radius:30px;
+    border: 2px solid #735E56;
+    padding: 8px 28px 8px 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+/*^^^^^^^^^^^^^^^^^^^^ De "talen"knop + zoekbalk" ^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv Nav bar vvvvvvvvvvvvvvvvvvvvvvvvvvv */
 .logo{
@@ -59,7 +148,6 @@ ul{
 nav{
     list-style: none;
     width: 100%;
-    display: flex;
     background-color: #ffffff;
     position: sticky;
 }
@@ -88,52 +176,6 @@ nav.active {
 /*^^^^^^^^^^^^^^^^^^^^^^^^ Nav bar ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
-header p {
-font-size: 16px;
-color: #735e56;
-}
-
-
-/*vvvvvvvvvvvvvvvvvvv De aankondiging vvvvvvvvvvvvvvvvvvvvvvvvvv */
-header+p{
-    font-weight: bolder;
-    color: #ffffff;
-    background-color: #75b91d;
-    width: 100%;
-    border-radius: 0 0 30px 30px;
-    text-align: center;
-    padding: 11px 22px;
-    display: block;
-}
-/*^^^^^^^^^^^^^^^^^^^^ De aankondiging ^^^^^^^^^^^^^^^^^^^^^^^ */
-
-
-
-/*vvvvvvvvvvvvvvvvvvv De "talen"knop" vvvvvvvvvvvvvvvvvvvvvvvvvv */
-form{
-    border-radius:30px;
-    border: 2px
-    padding: 8px 28px 8px 15px;
-    font-size: 16px;
-}
-/*^^^^^^^^^^^^^^^^^^^^ De "talen"knop" ^^^^^^^^^^^^^^^^^^^^^^^ */
-
-
-
-/*vvvvvvvvvvvvvvvvvvv "try now" knop vvvvvvvvvvvvvvvvvvvvvvvvvv */
-button{
-    padding: 15px 40px;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: .03em;
-    width: 195px;
-    text-align: center;
-    color: #fff;
-    background: rgba(255,129,43,1);
-    border-radius: 100px;
-}
-/*^^^^^^^^^^^^^^^^^^^^ "try now" knop ^^^^^^^^^^^^^^^^^^^^^^^ */
-	  
 /************^*******/
 /*^^^^ HEADER ^^^^ */
 /********************/
@@ -144,52 +186,9 @@ button{
 
 
 
-
-
-
-
-/************^*******/
-/*VVVV FOOTER VVVV */
-/********************/
-
-aside{
-    margin-left: 30px;
-    font-size: 10px;
-    color: #ffffff;
-
-}
-
-/************^*******/
-/*^^^^ FOOTER ^^^^ */
-/********************/
-
-
-
-
-
-
-
-
-
-
 /************^*******/
 /*vvv section 1 vvv */
 /********************/
-
-header~section{
-    width: 58%;
-    padding: 10% 20px 10% 0;
-    display: block;
-
-}
-
-/*vvvvvvvvvvvvvvvvvvv  1e achtergrong img noodles  vvvvvvvvvvvvvvvvvvvvvvvvvv */
-section+img{
-    width: 42%;
-    size: cover;
-    position: right bottom;
-}
-/*^^^^^^^^^^^^^^^^^^^^ 1e achtergrong img noodles ^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 /************^*******/
@@ -208,21 +207,33 @@ section+img{
 /*vvv section 2 vvv */
 /********************/
 
-ul{
-    text-align: center;
-    padding-bottom: 40px;
-    display: block;
-    align-items: center;
-}
-
-ul>img{
-    width: auto;
-    height: 138px;
-    object-fit: contain;
-    max-width: 100%;
-    border: 0;
-}
 
 /************^*******/
 /*^^^^ section 2 ^^^^/
+/********************/
+
+
+
+
+/************^*******/
+/*VVVV FOOTER VVVV */
+/********************/
+
+footer ul:second-child{
+
+}
+
+aside{
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 30px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+footer{
+background-color: #391f15;
+}
+/************^*******/
+/*^^^^ FOOTER ^^^^ */
 /********************/
