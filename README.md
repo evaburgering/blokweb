@@ -126,7 +126,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>Deze week ben ik verder gegaan het het schrijven van mijn css. Ik loop een beetje achter in de tijd. Voor mijn gevoel komt dit omdat ik nog niet de handige kneepjes weet en ik het af en toe nog lastig vind om de logica te zien.</summary>
+  <summary>Deze week ben ik verder gegaan het het schrijven van mijn HTML. Ik loop een beetje achter in de tijd. Voor mijn gevoel komt dit omdat ik nog niet de handige kneepjes weet en ik het af en toe nog lastig vind om de logica te zien.</summary>
 
   ### Stand van zaken
    ik loop een beetje achter omdat ik merk dat ik elke keer vast loop op het gebruiken van grid/flexbox. Deze week heb ik mijn best gedaan om dit zo veel mogelijk te oefenen en filmpjes er over te kijken om het verder te kunnen begrijpen. In de les heb ik hier ook vragen over gesteld en word het elke keer logisch uit gelegd en snap ik het tot dat ik thuis ben...
@@ -145,7 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Ik           | Sam     |  pepijn   
   | feedback     | html    | css           
-  | css         |         |      
+  | html         |         |      
   |              |         |                 
 
 
