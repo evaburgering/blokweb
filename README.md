@@ -126,20 +126,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
+  <summary>Deze week ben ik verder gegaan het het schrijven van mijn css. Ik loop een beetje achter in de tijd. Voor mijn gevoel komt dit omdat ik nog niet de handige kneepjes weet en ik het af en toe nog lastig vind om de logica te zien.</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+   ik loop een beetje achter omdat ik merk dat ik elke keer vast loop op het gebruiken van grid/flexbox. Deze week heb ik mijn best gedaan om dit zo veel mogelijk te oefenen en filmpjes er over te kijken om het verder te kunnen begrijpen. In de les heb ik hier ook vragen over gesteld en word het elke keer logisch uit gelegd en snap ik het tot dat ik thuis ben...
+
+   Ik heb deze week wel heel veel progressie geboekt en begin het met de dag meer in de vingers te krijgen. Daar ben ik wel trots op.
+
+<img src="readme-images/standvanzaken1.png" width="375px" alt="eerste indruk">
+  
+  <img src="readme-images/standvanzaken2.png" width="375px" alt="eerste indruk">
+  
+  
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ik           | Sam     |  pepijn   
+  | feedback     | html    | css           
+  | css         |         |      
+  |              |         |                 
 
 
   ### Verslag van meeting

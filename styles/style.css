@@ -6,10 +6,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 button, summary {
 	cursor: pointer;
+    font: inherit;
     line-height: 1.5;
     padding: 15px 40px;
     font-size: 20px;
@@ -19,43 +22,56 @@ button, summary {
 }
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-text: #735e56;
-    --color-text-rgb: 115, 94, 86;
     --color-body-text: #735e56;
-
-    --font-style-body: normal;
-    --font-weight-body: 400;
-    --font-size-header: 26;
-    --font-size-base: 15;
-    --font-h1-desktop: 35;
-    --font-h1-mobile: 32;
-    --font-h2-desktop: 20;
-    --font-h2-mobile: 18;
-    --font-h3-mobile: 20;
+    --bg: #fff;
 }
 
-
-
-h2:first-child{
-    font-size: 40px;
-    text-align: center;
+@media (prefers-color-scheme:dark){
+    :root {
+        --color-text: #d4c1b9;
+        --color-body-text: #d4c1b9;
+        --bg: rgb(47, 47, 47);
+    }
 }
+
+/*vvvvvvvvvvv "website costum properties vvvvvvvvvvvvvvvv
+
+--color-text: #735e56;
+
+--color-btn-primary: #ff812b;
+--color-btn-primary-darker: #f76400;
+ --color-btn-primary-focus:#f76400;
+ */
+
+
+
+
+
+
+
+
+
 
 ul{
     list-style: none;
 }
 
-img{
-    max-width: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /*vvvvvvvvvvvvvvvvvvv "try now" knop vvvvvvvvvvvvvvvvvvvvvvvvvv */
 button{
@@ -68,24 +84,72 @@ button{
 
 
 
-/*vvvvvvvvvvvvvvvvvvv "find your" secties vvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+
+/************^*******/
+/*VVVV FOOTER VVVV */
+/********************/
+footer{
+    padding: 0 18px;
+
+    background-color: #391f15;
+    color: #d4c1b9;
+    }
+
+aside{
+    font-size: 10px;
+    line-height: 14px;
+
+    margin-left: 30px;
+    padding-top: 0;
+    color: #ffffff;
+}
+
+
+footer ul li>img{
+    width: 30px;
+    height: 30px;
+}
+/************^*******/
+/*^^^^ FOOTER ^^^^ */
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*vvv "find your" secties bron:https://css-tricks.com/snippets/css/complete-guide-grid/ vvvvvvvvvvvvv */
 section ul{
-    display: flex;
+    padding-left: 0;
+
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+
     text-align: center;
-    padding-bottom: 40px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around ;
-    flex: 1;
-    
 }
 
-ul>li{
-    flex: auto ;
-    flex-grow: 1;
-    order: 3;
+section ul li{
+display: grid;
+grid-template-rows: 1fr min-content;
 }
 
+section ul li p{
+    grid-row-start: 2;
+    font-weight: 800;
+    color: #735e56;
+}
+
+section ul li img{
+    justify-self: center;
+    align-self: center;
+}
 /*^^^^^^^^^^^^^^^^^^^^ find your" secties ^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
@@ -96,7 +160,470 @@ ul>li{
 
 
 
-/**********************************************vvvv mijn code vvvv************************************************/
+
+
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 1 vvv */
+/********************/
+
+/*vvvvvvvvvvvvvvvvvvv eerste h2vvvvvvvvvvvvvvvvvvvvvvvvvv */
+section:nth-of-type(1) h2{
+    font-size: 40px;
+    text-align: left;
+    color: #75b91d;
+    width: 50%;
+    position: relative;
+    left: 4em;
+    margin-right: 0em;
+}
+
+section:nth-of-type(1) h3{
+    position: relative;
+    left: 8.4em;
+}
+
+section:nth-of-type(1) button{
+    position: relative;
+    left: 8em;
+    padding: 15px 40px ;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+body section:nth-of-type(1) img{
+position: absolute;
+left: -38em;
+width: 200%;
+margin-top: -22em;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^ eerste h2 ^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/************^*******/
+/*^^^^ section 1 ^^^^ */
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 2 vvv */
+/********************/
+section:nth-of-type(2){
+background-color:#ddefc4 ;
+padding-bottom: 1em;
+}
+
+section:nth-of-type(2) h2{
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #ff812b;
+    text-align: center;
+
+    padding:1em 0em 0em;
+    margin: 0.5em 0em 0em;
+}
+
+section:nth-of-type(2) h3{
+    font-size: 50px;
+    font-weight: 700;
+
+    line-height: 60px;
+
+    color: #ff812b;
+    text-align: center;
+
+    margin: 0 0 17.5px;
+}
+/************^*******/
+/*^^^^ section 2 ^^^^/
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 3 vvv */
+/********************/
+section:nth-of-type(3) h2{
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #75b91d;;
+    text-align: center;
+
+    padding:1em 0em 0em;
+    margin: 0.5em 0em 0em;
+}
+
+section:nth-of-type(3) h3{
+    font-size: 50px;
+    font-weight: 700;
+
+    line-height: 60px;
+
+    color: #75b91d;;
+    text-align: center;
+
+    margin: 0 0 17.5px;
+}
+/************^*******/
+/*^^^^ section 3 ^^^^/
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 4 vvv */
+/********************/
+section:nth-of-type(4){
+    background-color:#6AAA16;;
+    
+    color: #ffffff;
+
+    padding-bottom: 1em;
+    padding: 5% 20px;
+    }
+
+    section:nth-of-type(4) h2 {
+        font-size: 30px;
+        font-weight: 700;
+
+        text-align: center;
+    }
+
+    section:nth-of-type(4) p {
+        font-size: 18px;
+        font-weight: 400;
+
+        text-align: center; 
+
+        padding-bottom: 1em; 
+    }
+
+    section:nth-of-type(4) img {
+        position: relative;
+        left: 42%;
+    }
+/************^*******/
+/*^^^^ section 4 ^^^^/
+/********************/
+
+
+
+
+
+/************^*******/
+/*vvv section 5 vvv */
+/********************/
+section:nth-of-type(5) img {
+    width: 100%;
+}
+/************^*******/
+/*^^^^ section 5 ^^^^/
+/********************/
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 6 vvv */
+/********************/
+section:nth-of-type(6) {
+    background-image: url(https://cdn.shopify.com/s/files/1/1099/9762/files/mobile-data-table-heading-bg.png?v=1631740310);
+    background-position: center bottom;
+    background-size: 103%;
+    padding-top: 2em;
+    padding-bottom: 30em;
+}
+
+section:nth-of-type(6) h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ff812b;
+    line-height: 45px;
+}
+
+section:nth-of-type(6) button {
+    position: relative;
+    left: 24%;
+
+    font-weight: 800;
+    background: transparent;
+    border: 2px solid #FF812B;
+
+    color: #ff812b;
+}
+
+section:nth-of-type(6) img {
+    position: relative;
+    left: 34%;
+}
+/************^*******/
+/*^^^^ section 6 ^^^^/
+/********************/
+
+
+
+
+/************^*******/
+/*vvv section 7 vvv */
+/********************/
+section:nth-of-type(7) img {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    margin-top: -1.6em;
+    }
+
+/************^*******/
+/*^^^^ section 7 ^^^^/
+/********************/
+
+
+
+
+
+/************^*******/
+/*vvv section 8 vvv */
+/********************/
+section:nth-of-type(8)  {
+    padding: 10% 20px;
+    text-align: center;
+}
+
+section:nth-of-type(8) h2  {
+    font-size: 40px;
+    color: #75b91d;
+    font-weight: 700;
+    margin: 0 0 2.5%;
+}
+
+section:nth-of-type(8) h3, h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #75b91d;
+    margin: 0 0 8px;
+}
+
+section:nth-of-type(8) ul {
+    padding-left: 0;
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    text-align: center;
+}
+
+section:nth-of-type(8) li {
+    text-align: center;
+    padding: 10% 20px;
+
+    margin: 2.5%;
+    background: #F7FEEE;
+    border-radius: 30px;
+    color: #735e56;
+}
+
+section:nth-of-type(8) ul li~p{
+    font-size: 14px;
+}
+
+/************^*******/
+/*^^^^ section 8 ^^^^/
+/********************/
+
+
+
+/************^*******/
+/*vvv section 9 vvv */
+/********************/
+
+section:nth-of-type(9) img {
+     width: 100%;
+     margin-bottom: -2em;
+    }
+
+/************^*******/
+/*^^^^ section 9 ^^^^/
+/********************/
+    
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 10 vvv */
+/********************/
+section:nth-of-type(10) {
+    padding: 10% 20px;
+    text-align: center;
+    background-color: #fff8da;
+}
+
+section:nth-of-type(10) h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #ff812b;
+}
+
+section:nth-of-type(10) h3 {
+    color: #735e56;
+}
+
+
+section:nth-of-type(10) img {
+    position: relative;
+    margin: 18px auto;
+    width: 68px;
+    height: 11px;
+}
+
+section:nth-of-type(10) button {
+    font-weight: 900;
+    letter-spacing: .03em;
+
+    min-width: 100%;
+    font-size: 16px;
+    padding: 18px 0;
+    line-height: 16px;
+
+    background: transparent;
+    border: 2px solid #FF812B;
+    color: #ff812b;
+
+}
+
+/************^*******/
+/*^^^^ section 10 ^^^^/
+/********************/
+
+
+
+
+
+
+
+
+
+
+
+
+/************^*******/
+/*vvv section 11 vvv */
+/********************/
+
+section:nth-of-type(11) {
+    background-image: url(https://cdn.shopify.com/s/files/1/1099/9762/files/mobile-newsletter-bg.png?v=1631740310);
+    height: 470px;
+    background-size: contain;
+    padding: 10% 20px;
+}
+
+section:nth-of-type(11) h2 {
+    font-size: 20px;
+    line-height: 35px;
+    color: #75b91d;
+}
+
+section:nth-of-type(11) form{
+    line-height: 25px;
+    margin-top: 0em;
+    margin-block-end: 1em;
+
+    border: none;
+    outline: none;
+    padding: 0 20px;
+
+    width: 100%;
+    padding-left: 1em;
+}
+
+section:nth-of-type(11) input{
+    font-size: 18px;
+    line-height: 25px;
+    cursor: text;
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 100px;
+    width: 100%;
+    border: none;
+}
+
+section:nth-of-type(11) button{
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 16px;
+    width: 40%;
+
+    font-weight: 900;
+    color: #fff;
+    background: #75B91D;
+    border-radius: 100px;
+
+    text-transform: uppercase;
+
+}
+
+/************^*******/
+/*^^^^ section 11 ^^^^/
+/********************/
+
+
+
+
 
 
 
@@ -129,14 +656,28 @@ form, input{
     line-height: 1.5;
     margin-bottom: 10px;
 }
+
+
+header ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+header ul li{
+display: grid;
+grid-template-rows: 1fr 1fr;
+}
 /*^^^^^^^^^^^^^^^^^^^^ De "talen"knop + zoekbalk" ^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 
 
 
+
+
+
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv Nav bar vvvvvvvvvvvvvvvvvvvvvvvvvvv */
-.logo{
+nav img{
     display: inline-block;
     vertical-align: top;
     width: 50px;
@@ -152,7 +693,7 @@ nav{
     position: sticky;
 }
 
-nav > a {
+nav a {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
@@ -186,54 +727,9 @@ nav.active {
 
 
 
-/************^*******/
-/*vvv section 1 vvv */
-/********************/
-
-
-/************^*******/
-/*^^^^ section 1 ^^^^ */
-/********************/
 
 
 
 
 
 
-
-
-
-/************^*******/
-/*vvv section 2 vvv */
-/********************/
-
-
-/************^*******/
-/*^^^^ section 2 ^^^^/
-/********************/
-
-
-
-
-/************^*******/
-/*VVVV FOOTER VVVV */
-/********************/
-
-footer ul:second-child{
-
-}
-
-aside{
-    font-size: 10px;
-    line-height: 14px;
-    margin-left: 30px;
-    padding-left: 30px;
-    color: #ffffff;
-}
-
-footer{
-background-color: #391f15;
-}
-/************^*******/
-/*^^^^ FOOTER ^^^^ */
-/********************/
