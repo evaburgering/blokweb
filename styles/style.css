@@ -125,32 +125,7 @@ footer ul li>img{
 
 
 
-/*vvv "find your" secties bron:https://css-tricks.com/snippets/css/complete-guide-grid/ vvvvvvvvvvvvv */
-section ul{
-    padding-left: 0;
 
-    display: grid;
-    grid-template-columns: 1fr  1fr;
-
-    text-align: center;
-}
-
-section ul li{
-display: grid;
-grid-template-rows: 1fr min-content;
-}
-
-section ul li p{
-    grid-row-start: 2;
-    font-weight: 800;
-    color: #735e56;
-}
-
-section ul li img{
-    justify-self: center;
-    align-self: center;
-}
-/*^^^^^^^^^^^^^^^^^^^^ find your" secties ^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 
@@ -201,7 +176,7 @@ section:nth-of-type(1) button{
 
 body section:nth-of-type(1) img{
 position: absolute;
-left: -38em;
+left: -45em;
 width: 200%;
 margin-top: -22em;
 }
@@ -262,7 +237,35 @@ section:nth-of-type(2) h3{
 
 
 
+/*vvv "find your" secties bron:https://css-tricks.com/snippets/css/complete-guide-grid/ vvvvvvvvvvvvv */
+section ul{
+    padding-left: 0;
 
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+
+    text-align: center;
+}
+
+section:nth-of-type(2) ul li, 
+section:nth-of-type(3) ul li{
+display: grid;
+grid-template-rows: 1fr min-content;
+}
+
+section:nth-of-type(2) ul li p,
+section:nth-of-type(3) ul li p{
+    grid-row-start: 2;
+    font-weight: 800;
+    color: #735e56;
+}
+
+section:nth-of-type(2) ul li img,
+section:nth-of-type(3) ul li img{
+    justify-self: center;
+    align-self: center;
+}
+/*^^^^^^^^^^^^^^^^^^^^ find your" secties ^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 
@@ -379,6 +382,7 @@ section:nth-of-type(6) {
     background-size: 103%;
     padding-top: 2em;
     padding-bottom: 30em;
+    background-repeat: no-repeat;
 }
 
 section:nth-of-type(6) h2 {
@@ -399,6 +403,32 @@ section:nth-of-type(6) button {
 
     color: #ff812b;
 }
+
+section:nth-of-type(6) button:not([disabled]):hover {
+    position: relative;
+    left: 24%;
+
+    font-weight: 800;
+    background: #ff812b;
+    border: 2px solid #FF812B;
+
+    color: #ffffff;
+}
+
+section:nth-of-type(6) button:focus {
+    background: #ff812b;
+    border: 2px solid #913a00;
+
+    color: #ffffff;
+}
+
+section:nth-of-type(6) button:active {
+    background: #b84a00;
+    border: 2px solid #FF812B;
+
+    color: #ffffff;
+}
+
 
 section:nth-of-type(6) img {
     position: relative;
@@ -444,7 +474,8 @@ section:nth-of-type(8) h2  {
     margin: 0 0 2.5%;
 }
 
-section:nth-of-type(8) h3, h4 {
+section:nth-of-type(8) h3, 
+section:nth-of-type(8) h4 {
     font-weight: 700;
     font-size: 30px;
     color: #75b91d;
@@ -454,13 +485,12 @@ section:nth-of-type(8) h3, h4 {
 section:nth-of-type(8) ul {
     padding-left: 0;
 
-    display: grid;
     grid-template-columns: 1fr;
 
     text-align: center;
 }
 
-section:nth-of-type(8) li {
+section:nth-of-type(8) ul li {
     text-align: center;
     padding: 10% 20px;
 
@@ -518,8 +548,9 @@ section:nth-of-type(10) h2 {
     color: #ff812b;
 }
 
-section:nth-of-type(10) h3 {
+section:nth-of-type(10) p {
     color: #735e56;
+    font-size: 20px;
 }
 
 
@@ -542,7 +573,27 @@ section:nth-of-type(10) button {
     background: transparent;
     border: 2px solid #FF812B;
     color: #ff812b;
+}
 
+section:nth-of-type(10) button:not([disabled]):hover {
+    background: #ff812b;
+    border: 2px solid #FF812B;
+
+    color: #ffffff;
+}
+
+section:nth-of-type(10) button:focus {
+    background: #ff812b;
+    border: 2px solid #913a00;
+
+    color: #ffffff;
+}
+
+section:nth-of-type(10) button:active {
+    background: #b84a00;
+    border: 2px solid #FF812B;
+
+    color: #ffffff;
 }
 
 /************^*******/
@@ -649,23 +700,8 @@ header p {
 
 
 /*vvvvvvvvvvvvvvvvvvv De "talen"knop + zoekbalk" vvvvvvvvvvvvvvvvvvvvvvvvvv */
-form, input{
-    border-radius:30px;
-    border: 2px solid #735E56;
-    padding: 8px 28px 8px 15px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-
-header ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-}
-
-header ul li{
-display: grid;
-grid-template-rows: 1fr 1fr;
+header section{
+    display: flex;
 }
 /*^^^^^^^^^^^^^^^^^^^^ De "talen"knop + zoekbalk" ^^^^^^^^^^^^^^^^^^^^^^^ */
 
@@ -677,13 +713,21 @@ grid-template-rows: 1fr 1fr;
 
 
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv Nav bar vvvvvvvvvvvvvvvvvvvvvvvvvvv */
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 nav img{
     display: inline-block;
     vertical-align: top;
-    width: 50px;
+    width: 60px;
     height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;
+}
+
+nav ul li:nth-of-type(1){
+    align-self: flex-start;
 }
 
 nav{
@@ -697,7 +741,6 @@ nav a {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-    height: 80px;
     line-height: 1.5;
     text-decoration: none;
     font-size: 14px;
@@ -714,15 +757,17 @@ nav.active {
     background-color: #75b91d;
     padding: 12px;
     border: #75b91d;
+}
+
+
+
+    
 /*^^^^^^^^^^^^^^^^^^^^^^^^ Nav bar ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
 /************^*******/
 /*^^^^ HEADER ^^^^ */
 /********************/
-
-
-
 
 
 
