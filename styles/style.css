@@ -42,7 +42,7 @@ a{
     }
 }
 
-/*vvvvvvvvvvv "website costum properties vvvvvvvvvvvvvvvv
+/*vvvvvvvvvvv "website costum properties https://miraclenoodle.com/ vvvvvvvvvvvvvvvv
 
 --color-text: #735e56;
 
@@ -79,7 +79,7 @@ ul{
 /*vvvvvvvvvvvvvvvvvvv "try now" knop vvvvvvvvvvvvvvvvvvvvvvvvvv */
 button{
     color: #fff;
-    background: rgba(255,129,43,1);
+    background: rgb(216, 109, 37);
     border-radius: 6.25em;
     border: none;
     max-width: 100%;
@@ -157,7 +157,7 @@ footer ul li>img{
 section:nth-of-type(1) h2{
     font-size: 2.5em;
     text-align: left;
-    color: #75b91d;
+    color: #4a7611;
     width: 50%;
     position: relative;
     left: 50%;
@@ -214,7 +214,7 @@ section:nth-of-type(2) h2{
     font-size: 1.875em;
     font-weight: 700;
 
-    color: #ff812b;
+    color:  rgb(216, 109, 37);
     text-align: center;
 
     padding:1em 0em 0em;
@@ -225,7 +225,7 @@ section:nth-of-type(2) h3{
     font-size: 3.125em;
     font-weight: 700;
 
-    color: #ff812b;
+    color:  rgb(216, 109, 37);
     text-align: center;
 
     margin: 0 0 1.09375em;
@@ -282,7 +282,7 @@ section:nth-of-type(3) h2{
     font-size: 1.875em;
     font-weight: 700;
 
-    color: #75b91d;;
+    color: #4a7611;
     text-align: center;
 
     padding:1em 0em 0em;
@@ -293,7 +293,7 @@ section:nth-of-type(3) h3{
     font-size: 3.125em;
     font-weight: 700;
 
-    color: #75b91d;;
+    color: #4a7611;
     text-align: center;
 
     margin: 0 0 1.09375em;
@@ -317,7 +317,7 @@ section:nth-of-type(3) h3{
 /*vvv section 4 vvv */
 /********************/
 section:nth-of-type(4){
-    background-color:#6AAA16;;
+    background-color:#4a7611;
     
     color: #ffffff;
 
@@ -386,7 +386,7 @@ section:nth-of-type(6) {
 section:nth-of-type(6) h2 {
     text-align: center;
     font-size: 2.5em;
-    color: #ff812b;}
+    color:  rgb(216, 109, 37);}
 
 section:nth-of-type(6) button {
     position: relative;
@@ -394,9 +394,9 @@ section:nth-of-type(6) button {
 
     font-weight: 800;
     background: transparent;
-    border: 0.125em solid #FF812B;
+    border: 0.125em solid  rgb(216, 109, 37);;
 
-    color: #ff812b;
+    color:  rgb(216, 109, 37);;
 
     transition: all .5s;
 }
@@ -466,7 +466,7 @@ section:nth-of-type(8)  {
 
 section:nth-of-type(8) h2  {
     font-size: 2.5em;
-    color: #75b91d;
+    color: #4a7611;
     font-weight: 700;
     margin: 0 0 2.5%;
 }
@@ -475,7 +475,7 @@ section:nth-of-type(8) h3,
 section:nth-of-type(8) h4 {
     font-weight: 700;
     font-size: 1.875em;
-    color: #75b91d;
+    color: #4a7611;
     margin: 0 0 0.5em;
 }
 
@@ -542,7 +542,7 @@ section:nth-of-type(10) h2 {
     font-size: 2.5em;
     font-weight: 700;
 
-    color: #ff812b;
+    color:  rgb(216, 109, 37);;
 }
 
 section:nth-of-type(10) p {
@@ -568,15 +568,15 @@ section:nth-of-type(10) button {
     line-height: 1em;
 
     background: transparent;
-    border: 0.125em solid #FF812B;
-    color: #ff812b;
+    border: 0.125em solid  rgb(216, 109, 37);;
+    color:  rgb(216, 109, 37);;
 
     transition: all .5s;
 }
 
 section:nth-of-type(10) button:not([disabled]):hover {
-    background: #ff812b;
-    border: 0.125em solid #FF812B;
+    background:  rgb(216, 109, 37);;
+    border: 0.125em solid  rgb(216, 109, 37);;
 
     color: #ffffff;
 }
@@ -625,7 +625,7 @@ section:nth-of-type(11) {
 section:nth-of-type(11) h2 {
     font-size: 1.25em;
     line-height: 2.1875em;
-    color: #75b91d;
+    color: #4a7611;
     text-align: center;
 }
 
@@ -664,7 +664,7 @@ section:nth-of-type(11) button{
     font-weight: 900;
 
     color: #fff;
-    background: #75B91D;
+    background: #4a7611;
     border-radius: 6.25em;
 
     text-transform: uppercase;
@@ -692,7 +692,7 @@ section:nth-of-type(11) button{
 header p {
     font-weight: bolder;
     color: #ffffff;
-    background-color: #75b91d;
+    background-color: #4a7611;
     width: 100%;
     border-radius: 0 0 1.875 1.875em;
     text-align: center;

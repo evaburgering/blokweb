@@ -48,14 +48,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
-  Tijdens de les gingen we onze gekozen website gebruiken met een aantal verschillende dingen. 
+  Tijdens de les gingen we onze gekozen website gebruiken met een aantal verschillende elementen om te kijken hoe toegankelijk de website is.. 
 
   ### Bevindingen
-  Uit de test kwam dat mijn gekozen site niet veel rekening houd met andere methodes van navigeten dan de standaard huis.
+  Uit de test kwam dat mijn gekozen site niet veel rekening houd met andere methodes van navigeren dan de standaard muis.
+  Ook word er niet veel rekening gehouden met een hoog contrast voor mensen met een visuele beperking.
 
   #### Screenreader
-  Er is in deze website geen rekening gehouden met het gebruik van een screenreader.
-  
   Bij deze website zou het handig zijn om eer verduidelijking te maken met een kleur vlak of rand wanneer er elementen geselecteerd worden door de gebruiker.
 
   #### Muis en Toetsenbord 
@@ -143,19 +142,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Ik           | Sam     |  pepijn   
+  | Ik           | Sam     |  Ian   
   | feedback     | html    | css           
   | css         |         |      
   |              |         |                 
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Mijn navigatie balk had een verkeerde opbouw wat ik hier gefixt kreeg met css. Hier heb ik samen met de student assistent Yara aan gewerkt.
 
 </details>
 
@@ -166,33 +161,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>Vandaag gingen we de de toegangkelijkheid van je eigen website testen.</summary>
+  <summary>Vandaag gingen we de de toegangkelijkheid van je eigen website testen. Ik heb deze week veel aan de website verder gewerkt dus dit maakte het testen een stuk makkelijker.</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  De website is over het elgemeen in goed bellans als het gaat om text/ afbeedlingen. Voor mensen met een consentratie probleem is dit een website waar je niet snel overompelt worden met te veel langdradige informatie. Ook is het kleurcontrast vergelijen met het origineel een stuk verbeterd. (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Deze week had ik al een aantal states klaar maar nog niet op alle knoppen waardoor het navigeren wat stroef is verlopen. Door het testen hier van is mij opgevallen dat veel elementen nog van een Aria-label voorzien moeten worden om goed door de screenreader te kunnne gaan.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De website is tot nu toe met standaard muis en toetsenbord goed te gebruiken. Ik mis nog een aantal opmaak elementen om het helemaal af te maken maar door dit te testen weet ik een stuk beter wat ik moet aanpakken.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Aangezien deze website alleen een vertikae scroll heeft en de knoppen best groot zijn was het navigeren naast de algemene consequenties van het gebruiken van het aparaat niet heel moeilijk.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met her testen met de verschillende brillen kwam er naar voren dat de website voor mensen met een visuele beperking best toegankleijk is. Met de blurr bril was alles nog goed te zien alleen de kleine P elementen waren wat minder slech zichtaar. Met de Perophedal loss bril was de website relatief goed te zien alleen smolten de elementen in het midden een beetje over in elkaar.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="images/test1.jpg" width="375px" alt="testen in de klas">
+  <img src="images/test2.jpg" width="375px" alt="testen in de klas">
+
+ 
 
 </details>
 
@@ -206,26 +195,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
+  Deze week had ik al een groot gedeelte van mijn website af alleen had ik nog moeite met een section die niet op mijn css styling reageerde. Ik heb met de 2 student assistenten gezeten en hebben er samen naar gekeken. Uiteindelijk bleek er een ; niet goed te staan en had ik een elemen niet goed af gesloten... dan kan je lang bezig zijn voor zo iets stoms. Voor de rest hebben we mijn code door gelopen en hebben ze mij een aantal tips gegeven over het gebruiken van de aria-label en dat de "alt" tags in mijn code wat specifieker konden zijn.
+  
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | ik             | Ian        
+  | ---            | ---          
+  | specifieke section| en dit    
+        
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - alt tag mag specifiekeer
+  - meer gebruik maken van orders met p en ing
   - nog een punt
-  - ...
 
 </details>
 
@@ -265,8 +251,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://miraclenoodle.com/ =     orginele website voor opmaak, text en afbeeldingen
+  2. "find your" secties bron:https://css-tricks.com/snippets/css/complete-guide-grid/
+  3. header = bron: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container*/ + de hulp van yara prins
+  4. de hulp van Yara prins
+  5. de hulp en lessen van Sanne 't Hoofd  
+
 
 </details>
